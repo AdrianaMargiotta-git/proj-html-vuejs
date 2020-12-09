@@ -3,3 +3,64 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    min-height: 100vh;
+    background-color: antiquewhite;
+    cursor: context-menu;
+}
+
+header {
+    height: 45px;
+    /* background-color: red; */
+    background-color: #1f1f52;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+/* header rules */
+#header-text{
+    font-size: x-large;
+    color: white;
+}
+
+.links{
+    display: flex;
+    /* justify-content: baseline; */
+}
+
+.links ul.linksList{
+    list-style: none;
+    display: flex;
+}
+
+.links ul.linksList li.linksListElement{
+    margin: 6px;
+}
+
+.links ul.linksList li.linksListElement a{
+    text-decoration: none;
+    color: white;
+}
+
+.links ul.linksList li.linksListElement a:hover{
+    color: brown;
+    cursor: pointer;
+}
+
+.links .ricerca{
+    margin: 6px;
+}
+
+.links .ricerca i{
+    margin: 0px 8px;
+    color: white;
+    cursor: auto;
+}
+
+.links .ricerca i:hover{
+    color: brown;
+    cursor: pointer;
+}
