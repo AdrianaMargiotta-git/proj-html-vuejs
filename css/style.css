@@ -135,9 +135,7 @@ footer{
 
     /* SECTION 2 RULES */
 #sezione2{
-    /* background-color: red; */
     background-color: #ffffff;
-    /* height: 100px; */
     width: 100%;
     text-align: center;
     display: flex;
@@ -151,7 +149,7 @@ footer{
 }
 
 #sezione2text{
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .sezione2Strong{
@@ -178,14 +176,74 @@ footer{
 
     /* SECTION 3 RULES */
 #sezione3{
-    background-color: green;
-    height: 100px;
+    background-color: #ffffff;
     width: 100%;
-    text-align: center;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-content: center;
     align-items: center;
     padding-top: 25px;
+}
+
+#sezione3left{
+    display: flex;
+    flex-direction: row;
+}
+
+#sezione3left #sx2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+#sezione3left #dx2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.sezione3box{
+    background-color: #FFFFF0;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 8px;
+    width: 250px;
+}
+
+#sezione3 .black{
+    color: #3f3a64;
+}
+
+#sezione3 .grey{
+    color: #696981;
+}
+
+#sezione3 p.green{
+    font-size: x-large;
+    margin: 10px 0;
+}
+
+#sezione3 .green{
+    color: #20ad96;
+}
+
+#sezione3 #black2{
+    color: black;
+}
+
+#sezione3 ul.grey{
+    line-height: 35px;
+}
+
+#sezione3 button{
+    margin: 18px 0;
+    padding: 12px 20px;
+    text-align: center;
+    color: white;
+    background-color: #20ad96;
+    border: none;
+    border-radius: 5px;
 }
