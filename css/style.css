@@ -10,7 +10,7 @@ body{
     cursor: context-menu;
 }
 
-header {
+header{
     height: 45px;
     /* background-color: red; */
     background-color: #1f1f52;
@@ -20,7 +20,21 @@ header {
     align-items: center;
 }
 
-/* header rules */
+main{
+    min-height: calc(100vh - 145px);
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+footer{
+    min-height: 100px;
+    background-color: blueviolet;
+}
+
+/* HEADER RULES */
 #header-text{
     font-size: x-large;
     color: white;
@@ -63,4 +77,30 @@ header {
 .links .ricerca i:hover{
     color: brown;
     cursor: pointer;
+}
+
+/* MAIN RULES */
+        /* SECTION 1 RULES */
+#sezione1{
+    text-align: center;
+}
+
+#sezione1 h2{
+    font-size: 4rem;
+    color: white;
+}
+
+#sezione1 p{
+    font-size: 1.5rem;
+    color: #bcb2ac;
+}
+
+#sezione1 button{
+    margin: 18px 0;
+    padding: 12px 20px;
+    text-align: center;
+    color: white;
+    background-color: #20ad96;
+    border: none;
+    border-radius: 5px;
 }
