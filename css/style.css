@@ -44,7 +44,6 @@ footer{
 
 .links{
     display: flex;
-    /* justify-content: baseline; */
 }
 
 .links ul.linksList{
@@ -87,18 +86,18 @@ footer{
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-content: center;
     align-items: center;
-    /* position: relative; */
-    padding-top: 16px;
+    position: relative;
+    padding-top: 40px;
     background-color: #1f1f52;
     width: 100%;
+    min-height: 560px;
 }
 
-#prova{
-    background-color: yellow;
-    /* position: relative; */
+#sezione1Text{
+    width: 100%;
+    text-align: center;
 }
 
 #sezione1 h2{
@@ -125,12 +124,12 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* position: absolute;
-    z-index: 999; */
-    /* margin-top: 100px; */
-    /* width: 300px; */
+    position: absolute;
+    z-index: 999;
+    margin-top: 80px;
+    width: 100%;
     height: 340px;
-    background-color: bisque;
+    text-align: center;
 }
 
     /* SECTION 2 RULES */
@@ -150,6 +149,7 @@ footer{
 
 #sezione2text{
     font-size: xx-large;
+    margin-top: 100px;
 }
 
 .sezione2Strong{
@@ -248,8 +248,7 @@ footer{
 
     /* SECTION 4 RULES */
 #sezione4{
-    background-color: red;
-    /* height: 200px; */
+    background-color: #f8f8f8;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -264,24 +263,32 @@ footer{
 }
 
 #sezione4 p.green{
-    font-size: x-large;
+    font-size: 4rem;
     margin: 10px 0;
     color: #20ad96;
 }
 
+#sezione4 #black2{
+    color: black;
+}
+
 #sezione4 .offerteCorsi{
     display: flex;
-    /* justify-content: space-around; */
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     padding: 14px 10px;
-    flex-wrap: wrap;
+    width: 80%;
+    font-size: 1.4rem;
+    line-height: 0.8cm;
 }
 
 #sezione4 .offerteCorsi .corsi{
     flex-basis: calc(100% / 2);
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
+    padding: 0 50px;
 }
 
 #sezione4 .offerteCorsi .corsi img{
@@ -296,4 +303,30 @@ footer{
 
 #sezione4 .offerteCorsi .corsi .textSezione4{
     padding: 0 20px;
+}
+
+#sezione4 button{
+    margin: 18px 0;
+    padding: 12px 20px;
+    text-align: center;
+    color: white;
+    background-color: #20ad96;
+    border: none;
+    border-radius: 5px;
+}
+
+#sezione4 .offerteCorsi .corsi .textSezione4 a.color{
+    color: #20ad96;
+    cursor: pointer;
+}
+
+#sezione4 .offerteCorsi .corsi .textSezione4 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+
+#sezione4 .offerteCorsi .corsi .textSezione4 a:hover{
+    color: brown;
+    cursor: pointer;
 }

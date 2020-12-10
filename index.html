@@ -36,20 +36,15 @@
 
             <!-- sezione 1 -->
             <section id="sezione1">
-                <div id="prova">
+                <div id="sezione1Text">
                     <h2>Learn At Your Own Pace!</h2>
                     <p>Get teamed up with people of the same will.</p>
                     <button>Get started for free</button>
-                    <!-- <br> -->
-                </div>
-                <!-- <h2>Learn At Your Own Pace!</h2>
-                <p>Get teamed up with people of the same will.</p>
-                <button>Get started for free</button>
-                <br> -->
-                <div class="imgSezione1">
-                    <img src="img/home-6-hero-left-person-244x300.png" alt="">
-                    <img src="img/home-6-hero-poster-final.jpg" alt="">
-                    <img src="img/home-6-hero-right-person-195x300.png" alt="">
+                    <div class="imgSezione1">
+                        <img src="img/home-6-hero-left-person-244x300.png" alt="">
+                        <img src="img/home-6-hero-poster-final.jpg" alt="">
+                        <img src="img/home-6-hero-right-person-195x300.png" alt="">
+                    </div>
                 </div>
             </section>
 
@@ -125,23 +120,17 @@
                         <div class="imgSezione4">
                             <img :src="`./img/${corsi.image}`" alt="corsi">
                         </div>
-                        <!-- <img :src="`./img/${corsi.image}`" alt="corsi"> -->
                         <div class="textSezione4">
-                            <h5>{{corsi.price}}</h5>
-                        <h6>{{corsi.title}}</h6>
-                        <div class="info">
-                            <i class="far fa-file-alt"> {{corsi.lessons}}</i>
-                            <i class="far fa-user"> {{corsi.students}}</i>
+                            <a href="" class="color">{{corsi.price}}</a> <br>
+                            <a href="">{{corsi.title}}</a>
+                            <div class="info grey">
+                                <i class="far fa-file-alt"> {{corsi.lessons}}</i>
+                                <i class="far fa-user"> {{corsi.students}}</i>
+                            </div>
                         </div>
-                        </div>
-                        <!-- <h5>{{corsi.price}}</h5>
-                        <h6>{{corsi.title}}</h6>
-                        <div class="info">
-                            <i class="far fa-file-alt">{{corsi.lessons}}</i>
-                            <i class="far fa-user">{{corsi.students}}</i>
-                        </div> -->
                     </div>
                 </div>
+                <button>View all courses <i class="fas fa-arrow-right"></i></button>
             </section>
 
         </main>
