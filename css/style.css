@@ -330,6 +330,89 @@ footer{
     cursor: pointer;
 }
 
+    /* SECTION 5 RULES */
+#sezione5{
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#sezione5 .grey{
+    color: #8d8d8d;
+}
+
+#sezione5 p.green{
+    font-size: 3rem;
+    margin: 10px 0;
+    color: #20ad96;
+}
+
+#sezione5 .black{
+    color: black;
+}
+
+#sezione5 .sezioneWhy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px 10px;
+    width: 70%;
+    font-size: 1.4rem;
+    line-height: 0.8cm;
+}
+
+#sezione5 .sezioneWhy .sezione5Img{
+    display: flex;
+    position: relative;
+    width: 30%;
+    height: 200px;
+}
+
+#sezione5 .sezioneWhy .sezione5Img img:first-child{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#sezione5 .sezioneWhy .sezione5Img img:nth-child(2){
+    position: absolute;
+    bottom: -10px;
+    left: 40px;
+}
+
+#sezione5 .sezioneWhy .seizone5Text{
+    display: flex;
+    flex-direction: column;
+    width: 52%;
+    height: 200px;
+}
+
+#sezione5 h6{
+    margin: 10px 0;
+}
+
+#sezione5 .imagesSezione5{
+    display: flex;
+    align-items: center;
+    margin: 60px 0;
+    padding: 0 50px;
+}
+
+#sezione5 .imagesSezione5 img{
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+}
+
 
 
 
