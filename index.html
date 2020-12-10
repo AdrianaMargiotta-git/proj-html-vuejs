@@ -157,7 +157,26 @@
                 </div>
             </section>
 
-            <!--  -->
+            <!-- Latest on Our Blogs -->
+            <section id="sezione6">
+                <p class="grey">ENJOY READING ON MAXCOACH</p>
+                <p class="green"><strong id="black2">Latest on</strong> Our Blogs</p>
+                <div class="offerteBlog">
+                    <div class="blog" v-for="blog in linkBlogs">
+                        <div class="imgSezione6">
+                            <img :src="`./img/${blog.image}`" alt="blog">
+                        </div>
+                        <div class="textSezione6">
+                            <a href="" class="color">{{blog.profession}}</a> <br>
+                            <a href="">{{blog.title}}</a>
+                            <div class="info grey">
+                                <i class="far fa-calendar"> {{blog.date}}</i>
+                                <i class="far fa-eye"> {{blog.views}}</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
         </main>
 

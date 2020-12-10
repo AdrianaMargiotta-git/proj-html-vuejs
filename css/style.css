@@ -413,10 +413,69 @@ footer{
     padding: 0 30px;
 }
 
+    /* SECTION 6 RULES */
+#sezione6{
+    background-color: #f8f8f8;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
 
+#sezione6 .grey{
+    color: #696981;
+}
 
+#sezione6 p.green{
+    font-size: 4rem;
+    margin: 10px 0;
+    color: #20ad96;
+}
 
+#sezione6 #black2{
+    color: black;
+}
 
+#sezione6 .offerteBlog{
+    padding: 14px 10px;
+    font-size: 1.4rem;
+    line-height: 0.9cm;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+#sezione6 .offerteBlog .blog{
+    flex-basis: calc(100% / 3);
+}
+
+#sezione6 .offerteBlog .blog img{
+    width: 400px;
+    height: 250px;
+}
+
+#sezione6 .offerteBlog .blog .textSezione6{
+    padding: 0 20px;
+}
+
+#sezione6 .offerteBlog .blog .textSezione6 a.color{
+    color: #20ad96;
+    cursor: pointer;
+}
+
+#sezione6 .offerteBlog .blog .textSezione6 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+
+#sezione6 .offerteBlog .blog .textSezione6 a:hover{
+    color: brown;
+    cursor: pointer;
+}
 
 
 

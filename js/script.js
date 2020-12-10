@@ -12,7 +12,7 @@ var app = new Vue ({
             'Blog',
             'Shop'
         ],
-        // main
+        // main section4
         linkCourses:[
             {
                 image: 'course-02-480x298.jpg',
@@ -55,6 +55,30 @@ var app = new Vue ({
                 title: 'Introduction to Javascript for Beginners',
                 lessons: '14 lessons',
                 students: '76 students'
+            }
+        ],
+        // main section6
+        linkBlogs:[
+            {
+                image: 'artist-blog-03-480x325.jpeg',
+                profession: 'ARTIST',
+                title: 'Brush Strokes Energize Trees in Paintings',
+                date: 'May 15, 2020',
+                views: '688 views'
+            },
+            {
+                image: 'artist-blog-01-480x325.jpg',
+                profession: 'ARTIST',
+                title: 'Pocket-Sized Notebooks Hold Miniature Paintings',
+                date: 'May 15, 2020',
+                views: '603 views'
+            },
+            {
+                image: 'artist-blog-02-480x325.jpg',
+                profession: 'ARTIST',
+                title: 'Connection Between Self-Portraits and Identity',
+                date: 'May 15, 2020',
+                views: '397 views'
             }
         ],
         // footer
