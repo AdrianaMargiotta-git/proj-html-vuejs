@@ -6,7 +6,6 @@
 
 body{
     min-height: 100vh;
-    background-color: antiquewhite;
     cursor: context-menu;
 }
 
@@ -21,8 +20,6 @@ header{
 
 main{
     min-height: calc(100vh - 145px);
-    /* min-height: 600px; */
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -515,6 +512,43 @@ footer{
     flex-basis: calc(60% / 4);
 }
 
+    /* SECTION 8 RULES */
+#sezione8{
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    line-height: 30px;
+}
+
+#sezione8 p.green{
+    color: #20ad96;
+}
+    
+#sezione8 #black2{
+    color: black;
+}
+
+#sezione8 h3{
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+#sezione8 button{
+    margin: 18px 0;
+    padding: 12px 20px;
+    text-align: center;
+    color: white;
+    background-color: #20ad96;
+    border: none;
+    border-radius: 5px;
+}
 
 
     /* FOOTER RULES */
