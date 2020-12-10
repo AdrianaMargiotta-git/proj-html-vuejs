@@ -117,6 +117,33 @@
                 </div>
             </section>
 
+            <section id="sezione4">
+                <p class="grey">CHOOSE A COURSE TO GET STARTED</p>
+                <p class="green"><strong id="black2">Latest Featured</strong> Courses</p>
+                <div class="offerteCorsi">
+                    <div class="corsi" v-for="corsi in linkCourses">
+                        <div class="imgSezione4">
+                            <img :src="`./img/${corsi.image}`" alt="corsi">
+                        </div>
+                        <!-- <img :src="`./img/${corsi.image}`" alt="corsi"> -->
+                        <div class="textSezione4">
+                            <h5>{{corsi.price}}</h5>
+                        <h6>{{corsi.title}}</h6>
+                        <div class="info">
+                            <i class="far fa-file-alt"> {{corsi.lessons}}</i>
+                            <i class="far fa-user"> {{corsi.students}}</i>
+                        </div>
+                        </div>
+                        <!-- <h5>{{corsi.price}}</h5>
+                        <h6>{{corsi.title}}</h6>
+                        <div class="info">
+                            <i class="far fa-file-alt">{{corsi.lessons}}</i>
+                            <i class="far fa-user">{{corsi.students}}</i>
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+
         </main>
 
 

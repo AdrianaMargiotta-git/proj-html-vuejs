@@ -143,7 +143,7 @@ footer{
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 30px;
     line-height: 30px;
 }
@@ -184,6 +184,7 @@ footer{
     align-content: center;
     align-items: center;
     padding-top: 25px;
+    padding-bottom: 60px;
 }
 
 #sezione3left{
@@ -224,9 +225,6 @@ footer{
 #sezione3 p.green{
     font-size: x-large;
     margin: 10px 0;
-}
-
-#sezione3 .green{
     color: #20ad96;
 }
 
@@ -246,4 +244,56 @@ footer{
     background-color: #20ad96;
     border: none;
     border-radius: 5px;
+}
+
+    /* SECTION 4 RULES */
+#sezione4{
+    background-color: red;
+    /* height: 200px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#sezione4 .grey{
+    color: #696981;
+}
+
+#sezione4 p.green{
+    font-size: x-large;
+    margin: 10px 0;
+    color: #20ad96;
+}
+
+#sezione4 .offerteCorsi{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 10px;
+    flex-wrap: wrap;
+}
+
+#sezione4 .offerteCorsi .corsi{
+    flex-basis: calc(100% / 2);
+    display: flex;
+    align-items: center;
+}
+
+#sezione4 .offerteCorsi .corsi img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+#sezione4 .offerteCorsi .corsi .imgSezione4 img{
+    display: flex;
+}
+
+#sezione4 .offerteCorsi .corsi .textSezione4{
+    padding: 0 20px;
 }
