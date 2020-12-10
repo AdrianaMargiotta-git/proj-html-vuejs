@@ -178,6 +178,26 @@
                 </div>
             </section>
 
+            <!-- Glad to Help You Learn -->
+            <section id="sezione7">
+                <p class="grey">WANNA TRANSFORM YOUR LIFE?</p>
+                <p class="green"><strong id="black2">Glad to</strong> Help You <strong id="black2">Learn</strong></p>
+                <div class="imparare">
+                    <div class="impara" v-for="element in learn">
+                        <div class="imgSezione6">
+                            <img :src="`./img/${element.image}`" alt="img">
+                        </div>
+                        <div class="textSezione7">
+                            <h4 class="color">{{element.title}}</h4> <br>
+                            <p href="">{{element.info}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/home-6-services-image-1024x411.png" alt="immagine">
+                </div>
+            </section>
+
         </main>
 
 

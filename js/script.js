@@ -81,6 +81,29 @@ var app = new Vue ({
                 views: '397 views'
             }
         ],
+        // main section7
+        learn:[
+            {
+                image: 'client-logo-colored-03.png',
+                title: 'Idea Discussion',
+                info: 'Get teamed up with the specialists who work and teach coding for years at famous universities.'
+            },
+            {
+                image: 'client-logo-colored-03.png',
+                title: 'Web Development',
+                info: 'Learn to start building a webpage from scratch. You decide your own pace, course and speed.'
+            },
+            {
+                image: 'client-logo-colored-03.png',
+                title: 'System Administration',
+                info: 'Learners are encouraged to study the mechanism and structure of system administration.'
+            },
+            {
+                image: 'client-logo-colored-03.png',
+                title: 'Graphic Design',
+                info: 'Have a passion for graphics and arts? Show your talents wwith confidence and self-assertiveness.'
+            }
+        ],
         // footer
         titolofooter1: "Address",
         indirizzo: "382 NE 191st St # 87394 Miami, FL 33179-3899",

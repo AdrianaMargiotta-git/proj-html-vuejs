@@ -477,6 +477,44 @@ footer{
     cursor: pointer;
 }
 
+    /* SECTION 7 RULES */
+#sezione7{
+    background-color: #f2f4f6;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+    
+#sezione7 .grey{
+    color: #696981;
+}
+    
+#sezione7 p.green{
+    font-size: 4rem;
+    margin: 10px 0;
+    color: #20ad96;
+}
+    
+#sezione7 #black2{
+    color: black;
+}
+    
+#sezione7 .imparare{
+    padding: 14px 10px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    width: 90%;}
+    
+#sezione7 .imparare .impara{
+    flex-basis: calc(60% / 4);
+}
+
 
 
     /* FOOTER RULES */
