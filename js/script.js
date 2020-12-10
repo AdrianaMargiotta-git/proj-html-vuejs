@@ -1,6 +1,7 @@
 var app = new Vue ({
     el: "#app",
     data: {
+        // header
         titolo: "Max",
         titolo2: "Coach",
         linksheader: [
@@ -11,6 +12,7 @@ var app = new Vue ({
             'Blog',
             'Shop'
         ],
+        // main
         linkCourses:[
             {
                 image: 'course-02-480x298.jpg',
@@ -54,6 +56,30 @@ var app = new Vue ({
                 lessons: '14 lessons',
                 students: '76 students'
             }
-        ]
+        ],
+        // footer
+        titolofooter1: "Address",
+        indirizzo: "382 NE 191st St # 87394 Miami, FL 33179-3899",
+        opening: "+1(305) 547-9909 (9am - 5pm EST, Monday - Friday)",
+        footeremail: "support@maxcoach.com",
+        titolofooter2: "Explore",
+        explore1: [
+            'Start here',
+            'Blog',
+            'ABout us'
+        ],
+        explore2: [
+            'Success story',
+            'Courses',
+            'Contact us'
+        ],
+        titolofooter3: "Information",
+        information1: [
+            'Membership',
+            'Purchase guide',
+            'Privacy policy',
+            'Terms of services'
+        ],
+        footerUltimate: "2020 Maxcoach. All Rights Reserved"
     }
 })

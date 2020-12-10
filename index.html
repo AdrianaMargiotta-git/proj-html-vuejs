@@ -139,7 +139,51 @@
 
         <!-- inizio footer -->
         <footer>
-
+            <div class="footerInfo">
+                <div class="footersx">
+                    <h5 class="blackfoot">{{titolofooter1}}</h5>
+                    <span>
+                        {{indirizzo}} <br> {{opening}} <br>
+                        <a href="">{{footeremail}}</a>
+                    </span>
+                    <div class="social">
+                        <a href=""><i class="fab fa-facebook-square"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footerdx">
+                    <div class="explorer">
+                        <h5 class="blackfoot">{{titolofooter2}}</h5>
+                        <div class="explorer1">
+                            <ul v-for="element in explore1">
+                                <li>
+                                    <a href="">{{element}}</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="explorer2">
+                            <ul v-for="element in explore2">
+                                <li>
+                                    <a href="">{{element}}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="information">
+                        <h5 class="blackfoot">{{titolofooter3}}</h5>
+                        <ul v-for="element in information1">
+                            <li>
+                                <a href="">{{element}}</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ultimate">
+                <span class="copyright">&copy; {{footerUltimate}} </span>
+            </div>
         </footer>
 
     </div>
